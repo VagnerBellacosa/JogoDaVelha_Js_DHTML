@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+
+
+    <title>Jogo da velha com DHTML</title>
+    <script src="js\jvGame.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="myGame"></div>
+
+    <script>
+        var myGame = new jvGame("myGame");
+
+        myGame.Players("image\1.png", "image\2.png", "livre.png");
+        myGame.Start();
+    </script>
+
+</body>
+
+</html>
